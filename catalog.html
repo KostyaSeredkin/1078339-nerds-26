@@ -26,10 +26,13 @@
    <main>
      <h1>Магазин готовых шаблонов</h1>
 
+     <section>
+        <h2 class="visually_hidden">Фильтры</h2>
      <!-- Тут будет код фильтров страницы магазина -->
+     </section>
 
       <section>
-        <h2>Карточки товаров</h2>
+        <h2 class="visually_hidden">Карточки товаров</h2>
 
         <ul>
           <li>
@@ -117,7 +120,23 @@
    <section>
      <h2>Напишите нам</h2>
      <button type="button">Закрыть</button>
-     <!-- Тут будет форма -->
+     <form action="http://echo.htmlacademy.ru" method="post">
+       <p>
+         <label for="name_id">Ваше имя:</label>
+         <input type="text" name="name" id="name_id" placeholder="Имя Фамилия" value="">
+       </p>
+       <p>
+         <label for="email_id">Ваш e-mail:</label>
+         <input type="text" name="email" id="email_id" placeholder="email@example.com" value="">
+       </p>
+       <p>
+       <label for="message_id">Текст письма:</label>
+       <textarea name="message" id="message_id" value=""></textarea>
+       </p>
+       <p>
+         <button type="submit">Отправить</button>
+       </p>
+     <form>
    </section>
 
 

@@ -24,12 +24,12 @@
    </header>
 
    <main>
-     <h1>Студия Нёрдс</h1>
+     <h1 class="visually_hidden">Студия Нёрдс</h1>
 
      <!-- Тут будет код слайдера -->
 
       <section>
-         <h2>Услуги</h2>
+         <h2 class="visually_hidden">Услуги</h2>
          <ul>
            <li>
              <h3>Веб-сайты</h3>
@@ -50,7 +50,7 @@
       </section>
 
       <section>
-         <h2>Описание студии</h2>
+         <h2 class="visually_hidden">Описание студии</h2>
            <p>Мы — маленькая, но гордая дизайн-студия из Краснодара. </p>
            <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы. </p>
 
@@ -63,8 +63,7 @@
       </section>
 
       <section>
-         <h2>Статистика</h2>
-
+         <h2 class="visually_hidden">Статистика</h2>
            <h3>с 2004 года Любим точность во всем:</h3>
            <ul>
              <li>
@@ -83,7 +82,7 @@
       </section>
 
       <section>
-        <h2>Клиенты</h2>
+        <h2 class="visually_hidden">Клиенты</h2>
         <ul>
           <li><img src="img/htmlacdemy-logo.png" width="199" height="68" alt="Логотип HTML Академии"></li>
           <li><img src="img/borodinsli-logo.png" width="209" height="90" alt="Логотип барбершопа Бородинский"></li>
@@ -95,7 +94,10 @@
 
    <footer>
      <div>
-       <p>NЁRDS DESIGN STUDIO 191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+       <p>NЁRDS DESIGN STUDIO 191186</p>
+       <p>Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+       <p>тел. +7 (812) 275-75-75</p>
+
        <a href="#">Напишите нам</a>
      </div>
 
@@ -115,7 +117,23 @@
    <section>
      <h2>Напишите нам</h2>
      <button type="button">Закрыть</button>
-     <!-- Тут будет форма -->
+     <form action="http://echo.htmlacademy.ru" method="post">
+       <p>
+         <label for="name_id">Ваше имя:</label>
+         <input type="text" name="name" id="name_id" placeholder="Имя Фамилия" value="">
+       </p>
+       <p>
+         <label for="email_id">Ваш e-mail:</label>
+         <input type="text" name="email" id="email_id" placeholder="email@example.com" value="">
+       </p>
+       <p>
+       <label for="message_id">Текст письма:</label>
+       <textarea name="message" id="message_id" value=""></textarea>
+       </p>
+       <p>
+         <button type="submit">Отправить</button>
+       </p>
+     <form>
    </section>
 
 
