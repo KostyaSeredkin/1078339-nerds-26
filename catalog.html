@@ -28,7 +28,42 @@
 
      <section>
         <h2 class="visually_hidden">Фильтры</h2>
-     <!-- Тут будет код фильтров страницы магазина -->
+
+     <form action="http://echo.htmlacademy.ru" method="post">
+      <div>
+        <p>Сетка:</p>
+        <input type="radio" name="grid" value="responsive" id="responsive_id" checked>
+        <label for="responsive_id">Адаптивная</label>
+
+        <input type="radio" name="grid" value="fixed" id="fixed_id">
+        <label for="fixed_id">Фиксированная</label>
+
+        <input type="radio" name="grid" value="flexible" id="flexible_id">
+        <label for="flexible_id">Резиновая</label>
+      </div>
+      <div>
+        <p>Особенности:</p>
+        <input type="checkbox" name="slider" id="slider_id" checked>
+        <label for="slider_id">Слайдер</label>
+
+        <input type="checkbox" name="advantages" id="advantages_id">
+        <label for="advantages_id">Блок преимуществ</label>
+
+        <input type="checkbox" name="news" id="news_id" checked>
+        <label for="news_id">Новости</label>
+
+        <input type="checkbox" name="gallery" id="gallery_id">
+        <label for="gallery_id">Галерея</label>
+
+        <input type="checkbox" name="cart" id="cart_id">
+        <label for="cart_id">Корзина</label>
+      </div>
+
+      <button type="submit">Показать</button>
+
+     </form>
+
+
      </section>
 
       <section>
@@ -83,6 +118,7 @@
               <p># руб</p>
             </a>
           </li>
+        </ul>
 
       </section>
 
@@ -123,20 +159,20 @@
      <form action="http://echo.htmlacademy.ru" method="post">
        <p>
          <label for="name_id">Ваше имя:</label>
-         <input type="text" name="name" id="name_id" placeholder="Имя Фамилия" value="">
+         <input type="text" name="name" id="name_id" placeholder="Имя Фамилия">
        </p>
        <p>
          <label for="email_id">Ваш e-mail:</label>
-         <input type="text" name="email" id="email_id" placeholder="email@example.com" value="">
+         <input type="text" name="email" id="email_id" placeholder="email@example.com">
        </p>
        <p>
        <label for="message_id">Текст письма:</label>
-       <textarea name="message" id="message_id" value=""></textarea>
+       <textarea name="message" id="message_id"></textarea>
        </p>
        <p>
          <button type="submit">Отправить</button>
        </p>
-     <form>
+     </form>
    </section>
 
 
