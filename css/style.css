@@ -55,7 +55,7 @@ a {
   color: rgba(0, 0, 0, 0.3);
 }
 
-.services-list {
+.services_list {
   list-style: none;
 }
 
@@ -83,7 +83,9 @@ p.services_description {
   color: #283136;
 }
 
-a.red_button:link {
+a.red_button,
+a.red_button:hover,
+a.red_button:active {
   padding-left: 39px;
   padding-top: 19px;
   padding-right: 39px;
@@ -97,34 +99,19 @@ a.red_button:link {
 }
 
 a.red_button:hover {
-  padding-left: 39px;
-  padding-top: 19px;
-  padding-right: 39px;
-  padding-bottom: 18px;
-  border-radius: 3px;
-
   background-color: #e74246;
-
-  color: #ffffff;
-  text-align: center;
 }
 
 a.red_button:active {
-  padding-left: 39px;
-  padding-top: 19px;
-  padding-right: 39px;
-  padding-bottom: 18px;
-  border-radius: 3px;
-
   background-color: #d7373b;
   box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
-
-  color: #ffffff;
-  text-align: center;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 
-a.green_button:link {
+a.green_button,
+a.green_button:hover,
+a.green_button:active {
   padding-left: 39px;
   padding-top: 19px;
   padding-right: 39px;
@@ -138,32 +125,18 @@ a.green_button:link {
 }
 
 a.green_button:hover {
-  padding-left: 39px;
-  padding-top: 19px;
-  padding-right: 39px;
-  padding-bottom: 18px;
-  border-radius: 3px;
-
-  background-color: #00ca74;
-
-  color: #ffffff;
-  text-align: center;
+  background-color: #00bc6c;
 }
 
-a.green_button:link {
-  padding-left: 39px;
-  padding-top: 19px;
-  padding-right: 39px;
-  padding-bottom: 18px;
-  border-radius: 3px;
-
-  background-color: #00ca74;
-
-  color: #ffffff;
-  text-align: center;
+a.green_button:active {
+  background-color: #00aa62;
+  box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
+  color: rgba(255, 255, 255, 0.3);
 }
 
-a.yellow_button:link {
+a.yellow_button,
+a.yellow_button:hover,
+a.yellow_button:active {
   padding-left: 39px;
   padding-top: 19px;
   padding-right: 39px;
@@ -174,4 +147,302 @@ a.yellow_button:link {
 
   color: #ffffff;
   text-align: center;
+}
+
+a.yellow_button:hover {
+  background-color: #eab534;
+}
+
+a.yellow_button:active {
+  box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.studio_slogan {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+}
+
+.studio_text {
+  font-size: 16px;
+  line-height: 24px;
+  color: #283136;
+}
+
+.studio_description h3 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.development_list {
+  list-style: none;
+}
+
+.development_list li {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.statistics h3 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.statistics_list {
+  list-style: none;
+}
+
+.statistics_text {
+  font-size: 16px;
+  line-height: 18px;
+  color: #283136;
+}
+
+.statistics_percentage {
+  font-size: 45px;
+  line-height: 10px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.statistics_percentage span {
+  font-size: 26px;
+  line-height: 10px;
+  font-weight: bold;
+  color: #000000;
+  vertical-align: super;
+}
+
+.clients_list {
+  list-style: none;
+}
+
+.clients_list a {
+  opacity: 0.2;
+}
+
+.clients_list a:hover {
+  opacity: 1;
+}
+
+.clients_list a:active {
+  opacity: 0.1;
+}
+
+.address_button,
+.address_button:hover,
+.address_button:active {
+  padding-left: 45px;
+  padding-top: 19px;
+  padding-right: 46px;
+  padding-bottom: 19px;
+  border-radius: 3px;
+
+  background-color: #fb565a;
+
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.address_button:hover {
+  background-color: #e74246;
+}
+
+.address_button:active {
+  background-color: #d7373b;
+  box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.address_title {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.address_text {
+  font-size: 16px;
+  line-height: 18px;
+  color: #666666;
+}
+
+.social {
+  list-style: none;
+}
+
+.social a {
+  color: #ffffff;
+  background-color: #e1e1e1;
+}
+
+.footer_slogan {
+  text-align: left;
+}
+
+.footer_title {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.footer_text {
+  font-size: 16px;
+  line-height: 22px;
+  color: #444444;
+}
+
+.modal {
+  background-color: white;
+  color: #000000;
+}
+
+.modal h2 {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+}
+
+.modal_form label {
+  font: inherit;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: white;
+}
+
+.modal_form input,
+.modal_form textarea {
+  font: inherit;
+  font-size: 16px;
+  line-height: 18px;
+  color: rgba(68, 68, 68, 0.5);
+
+  border: 2px solid #d7dcde;
+}
+
+.modal_form input:hover,
+.modal_form textarea:hover {
+  border: 2px solid #b4b9bb;
+}
+
+.modal_form input:focus,
+.modal_form textarea:focus {
+  outline: none;
+  border: 2px solid #000000;
+  color: #444444;
+}
+
+.modal_form input:invalid,
+.modal_form textarea:invalid {
+  border: 2px solid #e74246;
+  color: #e74246;
+}
+
+.modal_button {
+  font: inherit;
+  background-color: #fb565a;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 500;
+  color: #000000;
+  text-align: center;
+}
+
+.filter_form fieldset {
+  border: none;
+}
+
+.filter_form legend {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.filter_form ul {
+  list-style: none;
+  line-height: 20px;
+}
+
+.filter_input + label,
+.filter_input:hover + label {
+  color: #283136;
+}
+
+.filter_input:disabled + label {
+  color: rgba(40, 49, 54, 0.3);
+}
+
+.filter_button {
+  font: inherit;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #000000;
+  text-transform: uppercase;
+
+  background-color: #eeeeee;
+}
+
+.products_list {
+  list-style: none;
+}
+
+.product_title {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.product_title:hover {
+  color: #fb565a;
+}
+
+.product_title:active {
+  color: #fb565a;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.product_description {
+  font-size: 16px;
+  line-height: 18px;
+  color: #666666;
+}
+
+.product_button {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  background-color: #fb565a;
+}
+
+.pagination {
+  list-style: none;
+}
+
+.pagination a {
+  font-size: 13.5px;
+  line-height: 15.5px;
+  color: #000000;
+
+  background-color: #eeeeee;
 }

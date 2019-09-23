@@ -33,7 +33,7 @@
 
       <section class="services">
          <h2 class="visually_hidden">Услуги</h2>
-         <ul class="services-list">
+         <ul class="services_list">
            <li class="services_item">
              <h3>Веб-сайты</h3>
              <p class="services_description">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
@@ -52,75 +52,78 @@
          </ul>
       </section>
 
-      <section>
+      <section class="studio_description">
          <h2 class="visually_hidden">Описание студии</h2>
-           <p class="">Мы — маленькая, но гордая дизайн-студия из Краснодара. </p>
-           <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы. </p>
+           <p class="studio_slogan">Мы — маленькая, но гордая дизайн-студия из Краснодара. </p>
+           <p class="studio_text">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы. </p>
 
            <h3>Выполняем заказы на разработку:</h3>
-           <ul>
+           <ul class="development_list">
              <li>Веб-сайтов любой сложности</li>
              <li>Мобильных приложений для iOS и Android</li>
              <li>Слайдшоу и видео для корпоративных презентаций</li>
            </ul>
       </section>
 
-      <section>
+      <section class="statistics">
          <h2 class="visually_hidden">Статистика</h2>
            <h3>с 2004 года Любим точность во всем:</h3>
-           <ul>
+           <ul class="statistics_list">
              <li>
-               <p>146<span>%</span></p>
-               <p>Уровень самоотдачи</p>
+               <p class="statistics_percentage">146<span>%</span></p>
+               <p class="statistics_text">Уровень самоотдачи</p>
              </li>
              <li>
-               <p>100<span>%</span></p>
-               <p>Соблюдение сроков</p>
+               <p class="statistics_percentage">100<span>%</span></p>
+               <p class="statistics_text">Соблюдение сроков</p>
              </li>
              <li>
-               <p>50<span>%</span></p>
-               <p>Минимальная предоплата</p>
+               <p class="statistics_percentage">50<span>%</span></p>
+               <p class="statistics_text">Минимальная предоплата</p>
              </li>
            </ul>
       </section>
 
-      <section>
+      <section class="clients">
         <h2 class="visually_hidden">Клиенты</h2>
-        <ul>
-          <li><img src="img/htmlacdemy-logo.png" width="199" height="68" alt="Логотип HTML Академии"></li>
-          <li><img src="img/borodinsli-logo.png" width="209" height="90" alt="Логотип барбершопа Бородинский"></li>
-          <li><img src="img/pink-logo.png" width="185" height="52" alt="Логотип компании Пинк"></li>
-          <li><img src="img/mishka-logo.png" width="173" height="84" alt="Логотип компании Мишка"></li>
+        <ul class="clients_list">
+          <li><a href="#"><img src="img/htmlacdemy-logo.png" width="199" height="68" alt="Логотип HTML Академии"></a></li>
+          <li><a href="#"><img src="img/borodinsli-logo.png" width="209" height="90" alt="Логотип барбершопа Бородинский"></a></li>
+          <li><a href="#"><img src="img/pink-logo.png" width="185" height="52" alt="Логотип компании Пинк"></a></li>
+          <li><a href="#"><img src="img/mishka-logo.png" width="173" height="84" alt="Логотип компании Мишка"></a></li>
         </ul>
       </section>
    </main>
 
    <footer>
-     <div>
-       <p>NЁRDS DESIGN STUDIO 191186</p>
-       <p>Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-       <p>тел. +7 (812) 275-75-75</p>
+     <section>
+       <div>
+         <p class="address_title">NЁRDS DESIGN STUDIO</p>
+         <p class="address_text">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+         <p class="address_text">тел. +7 (812) 275-75-75</p>
 
-       <a href="#">Напишите нам</a>
-     </div>
+         <a href="#" class="address_button">Напишите нам</a>
+       </div>
+     </section>
 
-     <ul>
+
+     <ul class="social">
        <li><a href="#">Вконтакте</a></li>
        <li><a href="#">Фейсбук</a></li>
        <li><a href="#">Инстаграм</a></li>
      </ul>
 
-     <div>
-       <p>Давайте дружить, это выгодно!</p>
-       <p>Скидка 10% для друзей из социальных сетей.</p>
+     <div class="footer_slogan">
+       <p class="footer_title">Давайте дружить, это выгодно!</p>
+       <p class="footer_text">Скидка 10% для друзей из социальных сетей.</p>
      </div>
 
    </footer>
 
-   <section>
+   <section class="modal">
      <h2>Напишите нам</h2>
      <button type="button">Закрыть</button>
-     <form action="http://echo.htmlacademy.ru" method="post">
+     <form class="modal_form" action="http://echo.htmlacademy.ru" method="post">
        <p>
          <label for="name_id">Ваше имя:</label>
          <input type="text" name="name" id="name_id" placeholder="Имя Фамилия">
@@ -134,7 +137,7 @@
        <textarea name="message" id="message_id"></textarea>
        </p>
        <p>
-         <button type="submit">Отправить</button>
+         <button class="modal_button" type="submit">Отправить</button>
        </p>
      </form>
    </section>
