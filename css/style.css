@@ -83,9 +83,9 @@ p.services_description {
   color: #283136;
 }
 
-a.red_button,
-a.red_button:hover,
-a.red_button:active {
+.red_button,
+.red_button:hover,
+.red_button:active {
   padding-left: 39px;
   padding-top: 19px;
   padding-right: 39px;
@@ -98,20 +98,20 @@ a.red_button:active {
   text-align: center;
 }
 
-a.red_button:hover {
+.red_button:hover {
   background-color: #e74246;
 }
 
-a.red_button:active {
+.red_button:active {
   background-color: #d7373b;
   box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
   color: rgba(255, 255, 255, 0.3);
 }
 
 
-a.green_button,
-a.green_button:hover,
-a.green_button:active {
+.green_button,
+.green_button:hover,
+.green_button:active {
   padding-left: 39px;
   padding-top: 19px;
   padding-right: 39px;
@@ -124,19 +124,19 @@ a.green_button:active {
   text-align: center;
 }
 
-a.green_button:hover {
+.green_button:hover {
   background-color: #00bc6c;
 }
 
-a.green_button:active {
+.green_button:active {
   background-color: #00aa62;
   box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
   color: rgba(255, 255, 255, 0.3);
 }
 
-a.yellow_button,
-a.yellow_button:hover,
-a.yellow_button:active {
+.yellow_button,
+.yellow_button:hover,
+.yellow_button:active {
   padding-left: 39px;
   padding-top: 19px;
   padding-right: 39px;
@@ -149,11 +149,11 @@ a.yellow_button:active {
   text-align: center;
 }
 
-a.yellow_button:hover {
+.yellow_button:hover {
   background-color: #eab534;
 }
 
-a.yellow_button:active {
+.yellow_button:active {
   box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
   color: rgba(255, 255, 255, 0.3);
 }
@@ -386,6 +386,7 @@ h1 {
   color: rgba(40, 49, 54, 0.3);
 }
 
+
 .filter_button {
   font: inherit;
   font-size: 16px;
@@ -394,14 +395,32 @@ h1 {
   color: #000000;
   text-transform: uppercase;
 
+  padding-left: 89px;
+  padding-top: 19px;
+  padding-right: 88px;
+  padding-bottom: 18px;
+
+  border: none;
+  border-radius: 3px;
+
   background-color: #eeeeee;
+}
+
+.filter_button:hover {
+  background-color: #dfdfdf;
+}
+
+.filter_button:active {
+  color: color: rgba(0, 0, 0, 0.3);
+  background-color: #d5d5d5;
+  box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
 }
 
 .products_list {
   list-style: none;
 }
 
-.product_title {
+.product_title a {
   font-size: 18px;
   line-height: 30px;
   font-weight: bold;
@@ -410,11 +429,11 @@ h1 {
   color: #000000;
 }
 
-.product_title:hover {
+.product_title a:hover {
   color: #fb565a;
 }
 
-.product_title:active {
+.product_title a:active {
   color: #fb565a;
   color: rgba(0, 0, 0, 0.3);
 }
@@ -431,8 +450,24 @@ h1 {
   font-weight: 500;
   text-transform: uppercase;
   color: #ffffff;
+  text-align: center;
+
+  border: none;
+  border-radius: 3px;
+
+  width: 200px;
+  height: 50px;
 
   background-color: #fb565a;
+}
+
+.product_button:hover {
+  background-color: #e74246;
+}
+
+.product_button:active {
+  box-shadow: inset 0px 3px 0 0 rgba(0, 1, 1, 0.1);
+  background-color: #d7373b;
 }
 
 .pagination {
