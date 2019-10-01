@@ -452,15 +452,6 @@ p.services_description {
   flex-direction: column;
 }
 
-.name_element {
-  width: 360px;
-  margin-right: 40px;
-}
-
-.email_element {
-  width: 360px;
-}
-
 .modal h2 {
   font-size: 45px;
   line-height: 45px;
@@ -514,44 +505,6 @@ h1 {
   font-weight: 500;
   color: #000000;
   text-align: center;
-}
-
-.catalog_wrap {
-  width: 1160px;
-
-  display: flex;
-  justify-content: space-between;
-
-  margin-left: auto;
-  margin-right: auto;
-
-  border: 1px solid green;
-}
-
-.cards_pagination {
-  display: flex;
-  flex-direction: column;
-
-}
-
-.grid_type {
-  list-style: none;
-  padding: 0px;
-  margin: 0px;
-}
-
-.characteristics {
-  list-style: none;
-  padding: 0px;
-  margin: 0px;
-}
-
-.filter_section {
-  width: 260px;
-}
-
-.cards_section {
-  width: 760px;
 }
 
 .filter_form fieldset {
@@ -610,25 +563,8 @@ h1 {
 }
 
 .products_list {
-  width: 760px;
-
-  display: flex;
-  flex-wrap: wrap;
-
   list-style: none;
-  margin: 0px;
-  padding: 0px;
-
-  border: 1px solid black;
 }
-
-.catalog_item {
-  width: 360px;
-  margin-bottom: 33px;
-  margin-right: 20px;
-}
-
-
 
 .product_title a {
   font-size: 18px;
@@ -682,9 +618,6 @@ h1 {
 
 .pagination {
   list-style: none;
-  padding: 0px;
-  margin: 0px;
-  display: flex;
 }
 
 .pagination a {
