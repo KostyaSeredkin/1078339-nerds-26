@@ -70,6 +70,22 @@ a {
   margin-top: 34px;
 }
 
+.cart_button .cart_link {
+  padding-left: 41px;
+  position: relative;
+}
+
+.cart_link::before {
+  content: "";
+
+  position: absolute;
+
+  width: 15px;
+  height: 15px;
+
+  background-color: #ff0000;
+}
+
 .navigation_buttons a,
 .cart_button a {
   text-transform: uppercase;
